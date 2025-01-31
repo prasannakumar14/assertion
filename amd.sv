@@ -25,6 +25,6 @@ module tb();
   end
 
    a1: assert property(@(posedge clk)($rose(a) |=> b[*15]));
-  
+   //a2: assert property(@(posedge clk)($rose(a) |=> b[*15]));
 endmodule
     
